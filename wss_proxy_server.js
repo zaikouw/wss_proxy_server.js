@@ -22,23 +22,27 @@ const connections = new Map();
 
 // Configuration
 const ESP32_TARGETS = [
+  '192.168.58.108:81',  // Current ESP32 IP (prioritized)
   '192.168.58.100:81',
   '192.168.58.115:81', 
   '192.168.58.113:81',
   '192.168.58.114:81',
   '192.168.1.100:81',
   '192.168.0.100:81',
-  '192.168.4.1:81'
+  '192.168.4.1:81',
+  'd0e962e417ed.ngrok-free.app:443'  // ESP32 via ngrok tunnel (HTTP port 80)
 ];
 
 const ESP32_HTTP_TARGETS = [
+  '192.168.58.108:80',  // Current ESP32 IP (prioritized)
   '192.168.58.100:80',
   '192.168.58.115:80',
   '192.168.58.113:80', 
   '192.168.58.114:80',
   '192.168.1.100:80',
   '192.168.0.100:80',
-  '192.168.4.1:80'
+  '192.168.4.1:80',
+  'd0e962e417ed.ngrok-free.app:443'  // ESP32 via ngrok tunnel (HTTP port 80)
 ];
 
 // Health check endpoint
