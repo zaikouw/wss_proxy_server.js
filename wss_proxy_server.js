@@ -403,3 +403,4 @@ process.on('SIGINT', () => {
 // Force redeploy: Wed Aug  6 17:33:16 -05 2025 - Added comprehensive debugging logs
 // Force redeploy: Wed Aug  6 17:35:37 -05 2025 - Auto-redirect local IPs to ngrok tunnel
 // Force redeploy: Wed Aug  6 17:43:59 -05 2025 - Fixed ngrok mock connection detection
+// Force redeploy: Wed Aug  6 18:13:21 -05 2025 - Added comprehensive debugging for ESP32 connection issues
