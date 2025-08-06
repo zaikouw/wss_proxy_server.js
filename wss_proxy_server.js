@@ -398,3 +398,4 @@ process.on('SIGINT', () => {
   });
 }); // Updated: Wed Aug  6 17:10:28 -05 2025
 // Force redeploy: Wed Aug  6 17:17:06 -05 2025 - ngrok tunnel fix
+// Force redeploy: Wed Aug  6 17:26:21 -05 2025 - ngrok command mapping fix
