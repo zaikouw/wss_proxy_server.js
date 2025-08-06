@@ -405,3 +405,4 @@ process.on('SIGINT', () => {
 // Force redeploy: Wed Aug  6 17:43:59 -05 2025 - Fixed ngrok mock connection detection
 // Force redeploy: Wed Aug  6 18:13:21 -05 2025 - Added comprehensive debugging for ESP32 connection issues
 // Force redeploy: Wed Aug  6 18:15:15 -05 2025 - Fixed connection state management
+// Force redeploy: Wed Aug  6 18:35:12 -05 2025 - Added comprehensive debugging for connection issues
