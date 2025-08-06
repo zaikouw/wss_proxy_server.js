@@ -1,0 +1,36 @@
+{
+  "name": "hesett-wss-proxy",
+  "version": "1.0.0",
+  "description": "WebSocket Secure Proxy Server for Hesett ESP32 Communication",
+  "main": "wss_proxy_server.js",
+  "scripts": {
+    "start": "node wss_proxy_server.js",
+    "dev": "nodemon wss_proxy_server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websocket",
+    "proxy",
+    "esp32",
+    "hesett",
+    "wss",
+    "secure"
+  ],
+  "author": "Hesett Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaikouw/Hesett-Dashboard-Client-main.git"
+  }
+} 
