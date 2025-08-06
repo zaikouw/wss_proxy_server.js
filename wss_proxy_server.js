@@ -400,3 +400,4 @@ process.on('SIGINT', () => {
 // Force redeploy: Wed Aug  6 17:17:06 -05 2025 - ngrok tunnel fix
 // Force redeploy: Wed Aug  6 17:26:21 -05 2025 - ngrok command mapping fix
 // Force redeploy: Wed Aug  6 17:27:43 -05 2025 - form-urlencoded fix for restaurant_id
+// Force redeploy: Wed Aug  6 17:33:16 -05 2025 - Added comprehensive debugging logs
